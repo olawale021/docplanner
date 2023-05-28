@@ -265,3 +265,18 @@ header img {
 .section5 p{
     color: #747474;
 }
+
+
+.section6 button{
+    background-color: #3D82DE;
+    border-radius: 5%;
+    color: white;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+}
+
+.section6 img{
+    padding-top: 7px;
+}
