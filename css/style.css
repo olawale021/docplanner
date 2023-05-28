@@ -1,3 +1,8 @@
+body {
+    font-family: 'Lora', serif;
+}
+
+
 header img {
     width: 268px;
     height: 33px;
@@ -176,4 +181,107 @@ header img {
     width: 80px;
     height: 15px;
     gap: 10%;
+}
+
+
+.section4 {
+    display: flex;
+    background-color: #CFFAF4;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section4-left {
+    padding-top: 5%;
+    margin-left: 20%;
+    margin-right: 2%;
+}
+
+
+
+.section4-left h3{
+    color: #00CCB1;
+    font-size: 25px;
+    
+}
+
+.section4-right {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.section4-right1 {
+    background-color: white;
+    width: 225px;
+    justify-content: center;
+    margin-right: 10px;
+    height: 255px;
+}
+
+.section4-right2 {
+    background-color: white;
+    width: 225px;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.section4-right3 {
+    background-color: white;
+    width: 225px;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.section4-right4 {
+    background-color: white;
+    width: 225px;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.section4 img {
+    padding-top: 15%;
+}
+
+.section4 h3{
+    color: #00CCB1;
+}
+
+.section4 p{
+    color: #747474;
+}
+
+.section5 {
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 37%;
+    padding-right: 37%;
+}
+
+.section5 h3 {
+    color: #00CCB1;
+    font-size: 30px;
+}
+
+.section5 p{
+    color: #747474;
+}
+
+
+.section6 button{
+    background-color: #3D82DE;
+    border-radius: 5%;
+    color: white;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+}
+
+.section6 img{
+    padding-top: 7px;
 }
