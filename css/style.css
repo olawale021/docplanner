@@ -2,29 +2,39 @@ body {
     font-family: 'Lora', serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
 header img {
     width: 268px;
     height: 33px;
-    padding-left: 20%;
-    padding-top: 2%;
-    justify-content: space-around;
+    padding-left: 100%;
+    padding-top: 10%;
+    justify-content: space-between;
     display: flex;
-    position: fixed;
 }
 
 .nav {
     display: flex;
-    justify-content: end;
+    justify-content: right;
     gap: 30px;
     padding-right: 20%;
     text-decoration: none;
     padding-top: 2%;
+    text-align: right;
     
 }
 .nav a {
     text-decoration: none;
     color:#747474;
+    text-align: right;
+    display: flex;
+}
+
+.nav a:hover{
+    color: #00CCB1;
 }
 
 #about {
@@ -212,6 +222,7 @@ header img {
     justify-content: center;
     text-align: center;
     margin-right: 10%;
+
 }
 
 .section4-right1 {
@@ -219,7 +230,8 @@ header img {
     width: 225px;
     justify-content: center;
     margin-right: 10px;
-    height: 255px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .section4-right2 {
@@ -227,6 +239,8 @@ header img {
     width: 225px;
     justify-content: center;
     margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .section4-right3 {
@@ -283,8 +297,10 @@ header img {
     border-radius: 5%;
     color: white;
     display: flex;
-    padding: 5px 10px;
+    padding-top: 5px;
+    padding-bottom: 5%;
     text-align: center;
+    align-items: center;
 
 }
 
@@ -306,6 +322,20 @@ header img {
 .section6-contents p{
     display: flex;
 }
+
+.section6btn {
+    display: flex;
+}
+
+div .section6btn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.section6-contents div:hover {
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+  }
 
 .section7 {
     text-align: center;
