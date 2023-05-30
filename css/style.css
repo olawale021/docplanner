@@ -41,7 +41,7 @@ header img {
     color:#01B29B;
 }
 
-.logo {
+.section1logo {
     height: 40px;
     width: 40px;
     align-items: center;
@@ -50,17 +50,17 @@ header img {
     margin-right: auto;
 }
 
-.logo1 {
+.section1 {
     padding-top: 3%;
 }
 
-.logo1 p{
+.section1 p{
     text-align: center;
     font-size: 40px;
     color: #01B29B
 }
 
-.paragragh {
+.section2 {
         justify-content: center;
         display: flex;
         gap: 20px;
@@ -73,7 +73,7 @@ header img {
     padding-right: 20%;
 }
 
-.icons {
+.section3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ header img {
     position: relative;
 }
 
-.icon1 {
+.section3-icon1 {
     background-color: #00CCB1;
     height: 380px;
     width: 300px;
@@ -92,13 +92,13 @@ header img {
     
 }
 
-.icon1 p{
+.section3-icon1 p{
     justify-content: flex-start;
     padding-top: 3%;
     color: white;
 }
 
-.icon1 select{
+.section3-icon1 select{
     text-decoration: underline;
     border: none;
     padding-left: 10%;
@@ -117,20 +117,20 @@ header img {
     font-size: 25px;
 }
 
-.icon2 {
+.section3-icon2 {
     background-color: #3D82DE;
     height: 380px;
     width: 300px;
     border-radius: 7%;
 }
 
-.icon2 p{
+.section3-icon2 p{
     justify-content: flex-start;
     padding-top: 2%;
     color: white;
 }
 
-.icon2 select{
+.section3-icon2 select{
     text-decoration: underline;
     border: none;
     padding-left: 10%;
@@ -140,20 +140,20 @@ header img {
     color: white;
 }    
 
-.icon3 {
+.section3-icon3 {
     background-color: #1A2734;
     height: 380px;
     width: 300px;
     border-radius: 7%; 
 }
 
-.icon3 p{
+.section3-icon3 p{
     justify-content: flex-start;
     padding-top: 3%;
     color: white;
 }
 
-.icon3 select{
+.section3-icon3 select{
     text-decoration: underline;
     border: none;
     padding-left: 10%;
@@ -162,39 +162,39 @@ header img {
     color: white;
 }    
 
-.section3 {
+.section4 {
     display: flex;
     align-content: center;
     gap: 20%;
     justify-content: center;
 }
 
-.section3-p {
+.section4-p {
 
     padding-left: 20%;
     font-size: 25px;
     color: #00CCB1;
 }
 
-.section3-icon{
+.section4-icon{
     padding-right: 20%;
     gap: 5%;
 }
 
-.section3-icon img{
+.section4-icon img{
     width: 40px;
     height: 40px;
     gap: 10%;
 } 
 
-.section3-icon .logosm {
+.section4-icon .logosm {
     width: 80px;
     height: 15px;
     gap: 10%;
 }
 
 
-.section4 {
+.section5 {
     display: flex;
     background-color: #CFFAF4;
     justify-content: center;
@@ -203,7 +203,7 @@ header img {
 
 
 
-.section4-left {
+.section5-left {
     padding-top: 5%;
     margin-left: 20%;
     margin-right: 2%;
@@ -211,13 +211,13 @@ header img {
 
 
 
-.section4-left h3{
+.section5-left h3{
     color: #00CCB1;
     font-size: 25px;
     
 }
 
-.section4-right {
+.section5-right {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -225,7 +225,7 @@ header img {
 
 }
 
-.section4-right1 {
+.section5-right1 {
     background-color: white;
     width: 225px;
     justify-content: center;
@@ -234,7 +234,7 @@ header img {
     margin-bottom: 10px;
 }
 
-.section4-right2 {
+.section5-right2 {
     background-color: white;
     width: 225px;
     justify-content: center;
@@ -243,42 +243,26 @@ header img {
     padding-bottom: 10px;
 }
 
-.section4-right3 {
+.section5-right3 {
     background-color: white;
     width: 225px;
     justify-content: center;
     margin-right: 10px;
 }
 
-.section4-right4 {
+.section5-right4 {
     background-color: white;
     width: 225px;
     justify-content: center;
     margin-right: 10px;
 }
 
-.section4 img {
+.section5 img {
     padding-top: 15%;
 }
 
-.section4 h3{
+.section5 h3{
     color: #00CCB1;
-}
-
-.section4 p{
-    color: #747474;
-}
-
-.section5 {
-    text-align: center;
-    padding-top: 4%;
-    padding-left: 37%;
-    padding-right: 37%;
-}
-
-.section5 h3 {
-    color: #00CCB1;
-    font-size: 30px;
 }
 
 .section5 p{
@@ -286,13 +270,29 @@ header img {
 }
 
 .section6 {
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 37%;
+    padding-right: 37%;
+}
+
+.section6 h3 {
+    color: #00CCB1;
+    font-size: 30px;
+}
+
+.section6 p{
+    color: #747474;
+}
+
+.section7 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 
-.section6 button{
+.section7 button{
     background-color: #3D82DE;
     border-radius: 5%;
     color: white;
@@ -304,12 +304,12 @@ header img {
 
 }
 
-.section6 img{
+.section7 img{
     padding-top: 7px;
     margin-right: 5%;
 }
 
-.section6-contents {
+.section7-contents {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,34 +319,34 @@ header img {
     padding-right: 20%;
 }
 
-.section6-contents p{
+.section7-contents p{
     display: flex;
 }
 
-.section6btn {
+.section7btn {
     display: flex;
 }
 
-div .section6btn {
+div .section7btn {
     display: flex;
     justify-content: space-between;
     padding-top: 5px;
 }
 
-.section6-contents div:hover {
+.section7-contents div:hover {
     box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
   }
 
-.section7 {
+.section8 {
     text-align: center;
     padding-top: 5%;
 }
 
-.section7 h3{
+.section8 h3{
     font-size: 30px;
 }
 
-.section7 button{
+.section8 button{
     background-color: #3D82DE;
     border-radius: 3%;
     color: white;
@@ -354,16 +354,16 @@ div .section6btn {
     text-align: center;
 }
 
-.section8 {
+.section9 {
     text-align: center;
     padding-top: 5%;
 }
 
-.section8-p {
+.section9-p {
     font-size: 13px;
 }
 
-.section8-p a {
+.section9-p a {
     text-decoration: none;
     color: #3D82DE;
 }
