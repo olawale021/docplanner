@@ -10,10 +10,10 @@ BEGIN
         Read(vowel);//Read vowel
         text = text + ch; //Concatenate into text 
         if(ch == " " OR ch == "."){
-            word_count = word_count + 1; // increase word count after space or .
+        word_count = word_count + 1; // increase word count after space or .
         }
         if(vowel == "a" || vowel == "e" || vowel == "i" || vowel == "o" || vowel == "u"){
-            vowel_count = vowel_count + 1; //increase vowel count after a,e,i,o,u
+        vowel_count = vowel_count + 1; //increase vowel count after a,e,i,o,u
         }
     UNTIL (char == ".")//Stop when user enters .
 
