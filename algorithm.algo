@@ -1,0 +1,98 @@
+ALGORITHM three_nb_sum
+VAR
+    num1,num2,num3 : INTEGER;
+    sum : INTEGER := 0;
+BEGIN
+    Read(num1);
+    Read(num2);
+    Read(num3);
+    sum := num1 + num2 + num3;
+    Write(sum);
+END
+
+
+
+
+ALGORITHM search_array
+VAR
+    tab : ARRAY_OF INTEGER[5];
+    i, pos, elt : INTEGER;
+    found : BOOLEAN;
+BEGIN
+    FOR i FROM 0 TO tab.length-1 step 1 DO
+        Read(tab[i]);// insert from user
+    END_FOR
+
+    Write("give the element to search of");
+    Read(elt);
+
+    pos := 0;
+    found := false;
+    WHILE (pos <= tab.length-1) DO
+        IF (tab[pos] == elt) THEN
+            found = true;
+            BREAK; // element is found let break the loop
+        END_IF
+        pos = pos + 1;
+        // j := j+1; // update index
+    END_WHILE
+
+    IF (found == false) THEN  // we reached the end of array without finding the element
+        // pos := -1; // -1 means we don't find the element.
+        Write("Element not found ");
+    ELSE
+        Write("Element found at index ", pos);;
+    END_IF
+
+    
+END
+
+ALGORITHM iterative_for
+VAR
+    i : INTEGER;
+    sum : INTEGER := 0;
+    tab: ARRAY_OF INTEGER[5] := {2, 5, 3, 7, 1}
+BEGIN
+    tab[2] = 9
+    FOR i FROM 1 TO 10 STEP step 2 DO 
+        sum := sum + i
+    END_FOR
+
+    FOR i FROM tab.length-1 TO 0 STEP step -1 DO 
+        Write(tab[i])
+    END_FOR
+
+    FOR i FROM tab.length-1 TO 0 STEP step -1 DO 
+        Write(tab[i])
+    END_FOR
+    Write(sum)
+END
+
+ALGORITHM iterative_while
+VAR
+    count : INTEGER := 0;
+    // n is the number to test
+    n : INTEGER := 100;
+
+BEGIN
+    WHILE (n%2 == 0 ) DO
+        /* while the condition is true
+        then it will repeat the instruction
+        until the condition will be false 
+        */
+        n := n/2; // every time we divide the number n by 2 and
+        count := count +1; // increment the count by 1
+    END_WHILE
+    Write(count)
+END
+
+ALGORITHM iterative_repeat
+VAR
+    password : STRING;
+
+BEGIN
+    REPEAT
+        Read( password )
+    UNTIL ( password == "secret" )
+    Write( password )
+END

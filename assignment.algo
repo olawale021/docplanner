@@ -1,0 +1,14 @@
+ALGORITHM algorithm_name
+VAR
+    set : ARRAY_OF INTEGER[5];
+    i : INTEGER;
+    
+BEGIN
+    FOR i FROM 0 TO set.length-1 STEP step  DO
+        Read(set[i])
+    END_FOR
+
+    FOR i FROM 0 TO set.length-1 STEP step  DO
+        Write(set[i])
+    END_FOR
+END
