@@ -1,1 +1,1 @@
-# gomycode checjpoints
+# gomycode checkpoints
