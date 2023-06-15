@@ -1,0 +1,7 @@
+ALGORITHM algorithm_name
+VAR
+    hand : ARRAY_OF INTEGER[6];
+    cards : ARRAY_OF[6] := {}
+BEGIN
+    
+END
