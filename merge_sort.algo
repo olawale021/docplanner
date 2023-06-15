@@ -1,0 +1,16 @@
+VAR
+    arr : ARRAY_OF INTEGER := {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    i : INTEGER := 0
+    key: INTEGER := 8;
+BEGIN
+    n = arr.length;
+    WHILE (i < n)
+        middle = n/2
+        if(key == arr[middle]){
+            return i;
+        }else if( key < arr[middle]){
+            
+        }else if( key > arr[middle]){
+        }
+    END_WHILE 
+END
