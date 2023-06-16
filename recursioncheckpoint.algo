@@ -1,0 +1,21 @@
+FUNCTION ispalindrome(word: ARRAY_OF STRING) : STRING
+VAR
+    result = STRING ;
+    start = INTEGER := 0;
+    end = INTEGER := length - 1;
+BEGIN
+    WHILE ( start < end ) 
+    IF start != end THEN
+        RETURN false
+    
+        start = start + 1  //increase start by 1
+        end = end - 1 //decrease end by 1
+    RETURN true
+    END_IF
+        word := "racecar";
+
+    IF ispalindrome(word):
+        Write("The word is a palindrome");
+    else:
+        Write("The word is not a palindrome");
+END
